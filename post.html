@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Atividade Formulário</title>
+    </head>
+    <body>
+        <center>
+            <h1>Formulário</h1>
+        </center>
+    <form action="dadosPost.html" method="POST">
+    <p>
+        <label for="Nome">Nome:</label>
+        <input type="text" id="nome" placeholder="">
+    <p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="">
+    <p>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" placeholder="">
+    <p>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="">
+    <p>
+        <label for="Idade">Idade:</label>
+            <select id="idade">
+                <option value="18 anos">18 anos</option>
+                <option value="19 anos">19 anos</option>
+                <option value="20 anos">20 anos</option>
+                <option value="21 anos">21 anos</option>
+                <option value="22 anos">22 anos</option>
+            </select>
+    <p>
+        <label for="Tipo de Conta">Tipo de Conta:</label>
+            <select id="conta">
+                <option value="pupança">Poupança</option>
+                <option value="corrente">Corrente</option>
+            </select>
+    <p>
+        <label for="Sexo">Sexo:</label>
+        <br>
+            <input type="radio" id="gender" value="Feminino">Feminino<br>
+            <input type="radio" id="gender" value="Masculino">Masculino<br>
+            <input type="radio" id="gender" value="Outro">Outro<br>
+    <p>
+        <input type="submit" name="Enviar">
+    </form>
+    </body>
+
+</html>
